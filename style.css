@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pattern {
+  margin: 10px 0;
+  width: 70%;
+  height: 60px;
+  background-image: url(imgs/pngtree-traditional-african-color-pattern-picture-image_1590972.jpg);
+}
+.pattern2 {
+  position: absolute;
+  bottom: 135px;
+  width: 70%;
+  height: 60px;
+  background-image: url(imgs/pngtree-traditional-african-color-pattern-picture-image_1590972.jpg);
+}
+.title {
+  font-size: 26px;
+  margin: 10px 0;
+}
+.characters-container {
+  display: flex;
+  gap: 20px;
+}
+
+.character-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.character-element:hover {
+  background-color: #f4bd49;
+  color: #000;
+  transition: 0.3s;
+}
+.char-result {
+  font-size: 0;
+}
+
+.result {
+  font-size: 20px;
+  background-color: #f4bd49;
+  color: #000;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 8px 0;
+  text-align: center;
+}
